@@ -14,7 +14,7 @@ class UserTest {
         User user = new User();
 
         // when
-        user.initPassword(new CorrectFixedPasswordGenerator());
+        user.initPassword(() -> "abcdefgh");
 
         // then
         assertThat(user.getPassword()).isNotNull();
@@ -27,7 +27,7 @@ class UserTest {
         User user = new User();
 
         // when
-        user.initPassword(new WrongFixedPasswordGenerator());
+        user.initPassword(() -> "ab");
 
         // then
         assertThat(user.getPassword()).isNull(); // 성공할 때도 있고, 실패할 때도 있다.
