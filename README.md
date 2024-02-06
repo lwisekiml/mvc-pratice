@@ -76,6 +76,8 @@ https://www.docker.com/products/docker-desktop/
 - MySQL 접속  
 > mysql -u root -p
 
+<br/>
+
 ## Ch03. 객체지향 패러다임
 ### 01. 테스트코드 실습
 
@@ -85,7 +87,22 @@ https://www.docker.com/products/docker-desktop/
 3. 리팩토링 시 안정성 확보
 4. 테스트 하기 쉬운 코드를 작성하다 보면 더 낮은 결합도를 가진 설계를 얻을 수 있음
 
+<br/>
 
+### 02. 객체지향 개념 다지기
+객체지향 프로그래밍 특징 4가지
+1. 추상화 (Abstraction)
+2. 다형성 (Polymorphism)
+3. 캡슐화 (Encapsulation)
+4. 상속 (Inheritance)
 
+객체지향 설계 원칙 5가지 (SOLID)
+1. SRP : Single Responsibility Principle (단일 책임의 원칙)
+2. OCP : Open/Closed Principle (개방 폐쇄의 원칙)
+3. LSP : Liskov’s Substitution Principle (리스코프 치환의 원칙)
+4. ISP : Interface Segregation Principle (인터페이스 분리의 원칙)
+5. DIP : Dependency Inversion Principle (의존성 역전의 원칙)
+
+<br/>
 
   
