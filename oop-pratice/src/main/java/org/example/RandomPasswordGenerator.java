@@ -6,7 +6,7 @@ import org.passay.EnglishCharacterData;
 import org.passay.PasswordGenerator;
 
 // 램던 password을 만들어 주는 클래스
-public class RandomPasswordGenerator {
+public class RandomPasswordGenerator implements org.example.PasswordGenerator {
     /**
      * Special characters allowed in password.
      */
