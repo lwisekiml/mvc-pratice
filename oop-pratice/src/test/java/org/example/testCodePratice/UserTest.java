@@ -1,5 +1,6 @@
-package org.example;
+package org.example.testCodePratice;
 
+import org.example.testCodePratice.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
