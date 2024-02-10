@@ -9,7 +9,7 @@ public enum ArithmeticOperator {
             return operand1 + operand2;
         }
     },
-    SUBTRACTIO("-") {
+    SUBTRACTION("-") {
         @Override
         public int arithmeticCalculate(int operand1, int operand2) {
             return operand1 - operand2;
