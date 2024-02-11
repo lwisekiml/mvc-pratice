@@ -11,6 +11,10 @@ public class Course {
         this.grade = grade;
     }
 
+    public double multiplyCreditAndCourseGrade() { // 응집도를 높임, 변화에 유연(변화가 생겨도 이 부분만 수정하면 됨)
+        return credit * getGradeToNumber();
+    }
+
     public int getCredit() {
         return credit;
     }
