@@ -111,5 +111,7 @@ v -> v.operator.equals(operator) 확인 필요
 ### 04. 객체지향 프로그램밍 실습 - 학점 계산기
 
 ### 05. 객체지향 프로그래밍 실습 - 음식점에서 음식 주문하는 과정
+Cook 에서 alt + insert -> equals() and hashCode() -> next...
+
 
   
