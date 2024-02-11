@@ -6,8 +6,12 @@ public class GradeCalculator {
 
     private final Courses courses;
 
-    public GradeCalculator(List<Course> courses) {
-        this.courses = new Courses(courses);
+//    public GradeCalculator(List<Course> courses) {
+//        this.courses = new Courses(courses);
+//    }
+
+    public GradeCalculator(Courses courses) {
+        this.courses = courses;
     }
 
     /**
